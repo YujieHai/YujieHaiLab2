@@ -16,6 +16,8 @@ box_plot_by_DRG <-
       geom_boxplot() +
       ## delete the legend
       theme(legend.position = 'none') +
+      ## change the angle of text
+      theme(axis.text.x = element_text(angle = -45))+
       ## set label for x-axis
       xlab("DRG Code") +
       ## set label for y-axis
