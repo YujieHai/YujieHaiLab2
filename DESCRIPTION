@@ -1,0 +1,12 @@
+Package: YujieHaiLab2
+Type: Package
+Title: Analysis of DRG Data
+Version: 0.1.0
+Author: Yujie Hai
+Description: Contain two functions. The first one 
+    produces a boxplot of vary grouped by DRG code.
+    The second one produces a table of stat for 
+    average medicare payments grouped by DRG code.
+Imports: tidyverse
+Encoding: UTF-8
+LazyData: true
